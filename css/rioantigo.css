@@ -1,0 +1,25 @@
+#precabralino, #imperial, #republicano {
+    color: blueviolet;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#colonial {
+    color: tomato;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Helvetica, sans-serif;
+}
+
+p {
+    /* font-family: 'Courier New', Courier, monospace; */
+    color: cornflowerblue;
+    font-size: 18px;
+}
+
+p::first-letter {
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.curiosidades-pequena {
+    font-size: 12px;
+}
+
