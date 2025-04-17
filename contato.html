@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histórias do Rio Antigo</title>
+    
+    <link href="css/menu_logo.css" rel="stylesheet">
+    <link href="css/rioantigo.css" rel="stylesheet">
+    <link href="img/python_16.png" rel="shortcut icon">
+
+    <!-- Fonte DOSIS utilizada nesta pagina apenas -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="caixa">
+            <h1 class="logo">
+                <img src="img/rioicon_125x125.png" alt="Logo do site">
+            </h1>
+            <nav class="hmenu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fotos.html">Fotos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="conteudo-principal">
+        
+        <div class="titulo-principal">
+            <h2>Converse conosco</h2>
+        </div>
+
+        <div>
+            
+            <form name="frmContato" id="idContato" action="#" method="POST">
+
+                <div>
+                    <label for="idNome">Nome</label>
+                </div>
+                <input id="idNome" type="text" name="nome" maxlength="70" placeholder="Digite seu nome" required>
+
+                <div>
+                    <label for="idEmail">E-mail</label>
+                </div>
+                <input id="idEmail" type="email" name="email" maxlength="100" placeholder="Digite seu e-mail" required>
+                
+                <div>
+                    <label for="idTelefone">Telefone</label>
+                </div>
+                <input id="idTelefone" type="tel" name="email" placeholder="Digite seu telefone" required>
+
+                <div>
+                    <label>Gênero</label>
+                </div>
+                <input type="radio" name="genero" value="F" id="idGeneroF"><label for="idGeneroF">Feminino</label>
+                <input type="radio" name="genero" value="M" id="idGeneroM"><label for="idGeneroM">Masculino</label>
+                <input type="radio" name="genero" value="O" id="idGeneroO"><label for="idGeneroO">Outros</label>
+
+                <div>
+                    <label id="idAssunto">Assunto</label>
+                </div>
+                <select name="assunto" id="idAssunto">
+                    <option value="0" selected>Selecione...</option>
+                    <option value="E">Elogio</option>
+                    <option value="C">Crítica</option>
+                    <option value="S">Solicitação</option>
+                    <option value="O">Outros</option>
+                </select>
+
+                <div>
+                    <label id="idMensagem">Mensagem</label>
+                </div>
+                <textarea rows="10" cols="200" id="idMensagem" name="mensagem" placeholder="Preencha com a mensagem desejada"></textarea>
+
+                <div>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+
+            </form>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Senac</p>
+        <p>Fontes</p>
+        <p>E-mail: sobre@rj.senac.br</p>
+        <p>Contato: Alunos e professor do Senac</p>
+    </footer>
+
+</body>
+
+</html>
