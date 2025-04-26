@@ -93,3 +93,34 @@
 .conteudo-rio-antigo-img img {
     width: 270px;
 }
+
+.rodape {
+    background-color: rgb(245, 247, 230);
+    width: 940px;
+    margin-top: 20px;
+}
+
+.rodape div {
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.rodape h3 {
+    padding: 10px 0;
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;  
+}
+
+.rodape h4 {
+    padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: center;
+    color: blue;
+}
+
+.rodape ul {
+    margin-left: 20px;
+    padding: 20px;
+}
